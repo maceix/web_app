@@ -1,0 +1,108 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Light Blue */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2 {
+    color: #003366; /* Dark Blue */
+}
+
+/* Login and Asset Management Section Visibility */
+.hidden {
+    display: none;
+}
+
+/* Form Styling */
+.asset-management {
+    background-color: #e6f2ff; /* Light Blue */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 700px;
+    width: 100%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #003366; /* Dark Blue */
+    font-weight: bold;
+}
+
+input[type="text"], input[type="password"], input[type="number"], select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #99ccff; /* Light Blue Border */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0073e6; /* Medium Blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #005bb5; /* Darker Blue on Hover */
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    color: #003366; /* Dark Blue Text */
+}
+
+th {
+    background-color: #0073e6; /* Medium Blue */
+    color: white;
+}
+
+td {
+    background-color: #f0f8ff; /* Light Blue */
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+button.edit-btn {
+    background-color: #005bb5; /* Dark Blue */
+}
+
+button.delete-btn {
+    background-color: #ff4d4d; /* Red for Delete */
+}
+
+button.edit-btn:hover, button.delete-btn:hover {
+    opacity: 0.8;
+}
